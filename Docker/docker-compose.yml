@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  readingisgood:
+    image: yagizsoyler/readingisgood:latest
+    container_name: readingisgood
+    restart: always
+    environment:
+      TZ : "Asia/Istanbul"
+    ports:
+      - 8080:8080
