@@ -45,7 +45,7 @@ The project provides the REST API of a simple book ordering application
   
     http://localhost:8080/swagger-ui.html
 
-- In the project, h2 database is used and data.sql file is created for initializing some patients and doctors. data.sql file can be found under the resources folder.
+- In the project, h2 database is used.
 - H2 Console can be accessed with the following URL http://localhost:8080/h2-console
   * JDBC URL: jdbc:h2:mem:testdb 
   * username: sa
